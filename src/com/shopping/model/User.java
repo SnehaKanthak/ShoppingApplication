@@ -6,7 +6,15 @@ public class User
 	private String username;
 	private String password;
 	private String address;
+	private String emailAddress;
 	
+	
+	public String getEmailAddress() {
+		return emailAddress;
+	}
+	public void setEmailAddress(String emailAddress) {
+		this.emailAddress = emailAddress;
+	}
 	public int getUserID() {
 		return userID;
 	}

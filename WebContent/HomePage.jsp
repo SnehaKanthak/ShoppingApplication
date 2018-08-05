@@ -58,7 +58,6 @@
 			<td>
 				<form method="post" action="CheckoutServlet">
 				<input type="number" id="inputQuantity" name="inputQuantity"
-           placeholder="20 increments" placeholder="Min: 10, max: 100"
            min="0" max="100" step="1" /> 
 			</td>
 			<td>
@@ -68,7 +67,7 @@
 				</form>
 			</td>
 
-		</tr>
+		</tr> 
 		<%
 			}
 			}

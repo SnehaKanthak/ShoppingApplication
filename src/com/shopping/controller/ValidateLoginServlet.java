@@ -20,14 +20,6 @@ import com.shopping.service.ValidateUserService;
 @WebServlet("/ValidateLoginServlet")
 public class ValidateLoginServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
-       
-    /**
-     * @see HttpServlet#HttpServlet()
-     */
-    public ValidateLoginServlet() {
-        super();
-        // TODO Auto-generated constructor stub
-    }
 
 	/**
 	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
