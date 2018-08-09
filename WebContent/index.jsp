@@ -10,6 +10,7 @@
 <title>Login Page</title>
 </head>
 <body>
+	<h1> Welcome to Shopping App </h1>
 	<form action = "ValidateLoginServlet" method = "post">
 	<br>
 		Name :<input type = "text" name = "userName"> <br> <br>
