@@ -56,7 +56,7 @@ public class ValidateLoginServlet extends HttpServlet {
 		 else {
 			PrintWriter out = response.getWriter();
 			out.println("Invalid details.. Try again ");
-			RequestDispatcher rd = request.getRequestDispatcher("UserLogin.jsp");
+			RequestDispatcher rd = request.getRequestDispatcher("index.jsp");
 			rd.include(request, response);
 
 		}
