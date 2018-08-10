@@ -11,7 +11,7 @@
 </head>
 <body>
 	<h1> Welcome to Shopping App </h1>
-	<h1> Have a nice day </h1>
+	<h1> Hello </h1>
 	<form action = "ValidateLoginServlet" method = "post">
 	<br>
 		Name :<input type = "text" name = "userName"> <br> <br>
